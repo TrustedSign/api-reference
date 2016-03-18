@@ -14,10 +14,5 @@
     "styles": {
         "website": "style.css"
     },
-    "plugins": ["-search"],
-    "pluginsConfig": {
-        "search": {
-            "maxIndexSize": 1000
-        }                           
-    }
+    "plugins": ["-search"]
 }
