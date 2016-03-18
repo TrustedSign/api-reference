@@ -12,7 +12,7 @@
         }
     },
     "styles": {
-        "website": "style.css"
+        "website": "styles/website.css"
     },
     "plugins": ["-search"]
 }
