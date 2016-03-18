@@ -3,7 +3,7 @@
 * [可信签集成开发手册](README.md)
 * [名词解释](term.md)
 * [集成方式](type.md)
-* [接口规范](standardmd.md)
+* [接口规范](standard.md)
    * [协议](protocol.md)
    * [安全](security.md)
    * [状态码](code.md)
