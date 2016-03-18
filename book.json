@@ -1,8 +1,6 @@
 {
     "gitbook": "2.x.x",
     "links": {
-        "sidebar": {
-        },
         "sharing": {
             "google": false,
             "facebook": false,
