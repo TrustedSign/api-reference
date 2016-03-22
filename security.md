@@ -12,7 +12,11 @@
 | `Timestamp` | String	 |   时间戳，从 1970 年 1 月 1 日 0 点 0 分 0 秒开始到现在的秒数    |
 | `Signature` | String  |  数据签名     |
 
-Signature (数据签名)计算方法：将系统分配的 App-Secret(秘钥)、Nonce (随机数)、Timestamp (时间戳)四个字符串按先后顺序拼接成一个字符串并进行 `MD5` 哈希计算。如果调用的数据签名验证失败，接口调用会返回 HTTP 状态码 401。其他状态码请参见状态码表。
+Signature (数据签名)计算方法：将系统分配的App-Secret(秘钥)、Nonce (随机数)、Timestamp (时间戳)三个字符串按先后顺序拼接成一个字符串并进行 `MD5` 哈希计算。如果调用的数据签名验证失败，接口调用会返回 HTTP 状态码 401。其他状态码请参见状态码表。
+
+```
+md5(App-Secret + Nonce + Timestamp)
+```
 
 **关于App-Key 和 App-Secret请登录平台，企业管理->开发配置中查看和管理**
 
